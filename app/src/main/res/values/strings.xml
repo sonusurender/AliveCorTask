@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AliveCorAssignment</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_dob">Date Of Birth</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_back">Back</string>
+    <string name="error_first_name">Please input first name.</string>
+    <string name="error_last_name">Please input last name.</string>
+    <string name="error_dob">Please input dob.</string>
+    <string name="first_name_format">First Name: %s</string>
+    <string name="last_name_format">Last Name: %s</string>
+    <string name="age_format">Age %s</string>
+
+</resources>

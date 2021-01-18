@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragmentA"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/fragmentA"
+        android:name="com.example.alivecorassignment.ui.FragmentA"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/action_fragmentA_to_fragmentB"
+            app:destination="@id/fragmentB" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentB"
+        android:name="com.example.alivecorassignment.ui.FragmentB"
+        android:label="User Profile"
+        tools:layout="@layout/fragment_b" />
+
+</navigation>
